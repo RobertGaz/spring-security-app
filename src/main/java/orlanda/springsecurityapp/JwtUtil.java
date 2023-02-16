@@ -19,19 +19,19 @@ public class JwtUtil {
                 .withSubject("user details")
                 .withClaim("username", username)
                 .withIssuedAt(new Date())
-                .withIssuer("robert")
+                .withIssuer("robert application")
                 .withExpiresAt(expirationDate)
                 .sign(Algorithm.HMAC256(secret));
     }
 
-    public String verifyAndDecodeToken(String token) {
+    public String verifyTokenAndRetrieveUsernameClaim(String token) {
         JWTVerifier jwtVerifier = JWT.require(Algorithm.HMAC256(secret))
-                .withIssuer("robert")
+                .withIssuer("robert application")
                 .build();
 
         DecodedJWT decodedJWT = jwtVerifier.verify(token);
 
-        return decodedJWT.getToken();
+        return decodedJWT.getClaim("username").asString();
     }
 
 }
