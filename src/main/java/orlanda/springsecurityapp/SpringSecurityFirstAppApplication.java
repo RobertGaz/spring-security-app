@@ -1,4 +1,4 @@
-package orlanda.springsecurityfirstapp;
+package orlanda.springsecurityapp;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

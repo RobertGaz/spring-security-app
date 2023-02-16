@@ -1,12 +1,12 @@
-package orlanda.springsecurityfirstapp.controllers.rest;
+package orlanda.springsecurityapp.controllers.rest;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
-import orlanda.springsecurityfirstapp.JwtUtil;
-import orlanda.springsecurityfirstapp.models.Person;
-import orlanda.springsecurityfirstapp.models.rest.AuthenticationDTO;
-import orlanda.springsecurityfirstapp.models.rest.PersonDTO;
-import orlanda.springsecurityfirstapp.services.RegistrationService;
+import orlanda.springsecurityapp.JwtUtil;
+import orlanda.springsecurityapp.models.Person;
+import orlanda.springsecurityapp.models.rest.AuthenticationDTO;
+import orlanda.springsecurityapp.models.rest.PersonDTO;
+import orlanda.springsecurityapp.services.RegistrationService;
 
 @RequestMapping("/rest")
 @RestController

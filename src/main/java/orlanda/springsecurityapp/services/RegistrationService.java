@@ -1,11 +1,11 @@
-package orlanda.springsecurityfirstapp.services;
+package orlanda.springsecurityapp.services;
 
 import jakarta.transaction.Transactional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
-import orlanda.springsecurityfirstapp.models.Person;
-import orlanda.springsecurityfirstapp.repositories.PeopleRepository;
+import orlanda.springsecurityapp.models.Person;
+import orlanda.springsecurityapp.repositories.PeopleRepository;
 
 @Service
 public class RegistrationService {

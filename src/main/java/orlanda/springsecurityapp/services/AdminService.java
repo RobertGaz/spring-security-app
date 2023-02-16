@@ -1,4 +1,4 @@
-package orlanda.springsecurityfirstapp.services;
+package orlanda.springsecurityapp.services;
 
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.stereotype.Service;

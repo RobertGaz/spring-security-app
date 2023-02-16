@@ -1,4 +1,4 @@
-package orlanda.springsecurityfirstapp.config;
+package orlanda.springsecurityapp.config;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Configurable;
@@ -17,7 +17,7 @@ import org.springframework.security.crypto.password.NoOpPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.web.SecurityFilterChain;
 import org.springframework.stereotype.Component;
-import orlanda.springsecurityfirstapp.services.PersonDetailsService;
+import orlanda.springsecurityapp.services.PersonDetailsService;
 
 import static org.springframework.security.config.Customizer.withDefaults;
 

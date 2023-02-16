@@ -1,4 +1,4 @@
-package orlanda.springsecurityfirstapp.models.rest;
+package orlanda.springsecurityapp.models.rest;
 
 public class PersonDTO {
     private String username;

@@ -1,9 +1,9 @@
-package orlanda.springsecurityfirstapp.security;
+package orlanda.springsecurityapp.security;
 
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
-import orlanda.springsecurityfirstapp.models.Person;
+import orlanda.springsecurityapp.models.Person;
 
 import java.util.Collection;
 import java.util.Collections;

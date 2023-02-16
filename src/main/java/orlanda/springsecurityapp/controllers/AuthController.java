@@ -1,4 +1,4 @@
-package orlanda.springsecurityfirstapp.controllers;
+package orlanda.springsecurityapp.controllers;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -6,8 +6,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
-import orlanda.springsecurityfirstapp.models.Person;
-import orlanda.springsecurityfirstapp.services.RegistrationService;
+import orlanda.springsecurityapp.models.Person;
+import orlanda.springsecurityapp.services.RegistrationService;
 
 @Controller
 @RequestMapping("/auth")

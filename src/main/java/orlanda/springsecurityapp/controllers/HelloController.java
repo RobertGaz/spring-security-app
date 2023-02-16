@@ -1,4 +1,4 @@
-package orlanda.springsecurityfirstapp.controllers;
+package orlanda.springsecurityapp.controllers;
 
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpSession;
@@ -7,9 +7,9 @@ import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
-import orlanda.springsecurityfirstapp.Sas;
-import orlanda.springsecurityfirstapp.security.PersonDetails;
-import orlanda.springsecurityfirstapp.services.AdminService;
+import orlanda.springsecurityapp.Sas;
+import orlanda.springsecurityapp.security.PersonDetails;
+import orlanda.springsecurityapp.services.AdminService;
 
 @Controller
 public class HelloController {

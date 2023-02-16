@@ -1,4 +1,4 @@
-package orlanda.springsecurityfirstapp.models;
+package orlanda.springsecurityapp.models;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
